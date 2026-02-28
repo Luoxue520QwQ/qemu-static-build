@@ -115,8 +115,8 @@ jobs:
 
           ./configure \
             --static \
-            --disable-system \
-            --enable-linux-user \
+            --enable-system \
+            --disable-linux-user \
             --disable-bsd-user \
             --disable-docs \
             --prefix=/usr/local/qemu
